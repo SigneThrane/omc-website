@@ -1,0 +1,376 @@
+body{
+    background: grey;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    padding:20px;
+    height: 109px;
+    background-color: black;
+    background-size: 100%;
+    background-position: center ;
+    text-align: center;
+}
+
+header a:hover {
+    color: rgb(192, 192, 192);
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+header .logo a {
+background-image: url("logo/logo.png");
+background-size: 170px;
+background-repeat: no-repeat;
+display: inline-block;
+height: 60px;
+position: relative;
+text-indent: -9999999px;
+top: -10px;
+width: 200px;
+}
+
+/*Fronts*/
+
+.frontbags{
+    padding:20px;
+    height: 300px;
+    background-color: grey;
+    background-image: url("bags/bf.jpg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.frontshirts{
+    background-color: grey;
+    background-image: url("tshirt/front.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.frontarrivals{
+    background-color: grey;
+    background-image: url("newarrivals/front.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 300px;
+    padding: 20px;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/*Menubar*/
+
+section {
+    background: white;
+    color: gray;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    background-color: white;
+    padding: 20px;
+    height: 20px;
+    width: 100%;
+    background-position: center ;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+li{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/*Containers*/
+
+footer {
+    background: white;
+    padding: 00px 00px;
+    width: 100%;
+    height: 450px;
+}
+.newarrivalscontainer, .newarrivalscontainer2, .bagscontainer, .bagscontainer2, .shirtscontainer, .shirtscontainer2, .topcontainer, .midcontainer, .bottomcontainer {
+    min-height: 100%;
+    background-color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: row wrap;
+}
+.na1, .na2, .na3, .na4, .na5, .na6{
+    min-height: 33.33vh; border: 5px solid white;
+    flex-grow: 1; flex-shrink: 0;
+}
+
+.newarrivalscontainer .na1 .na2 .na3{
+    flex-basis: 33%;
+}
+
+.newarrivalscontainer2 .na4 .na5 .na6{
+    flex-basis: 33%;
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6{
+    min-height: 33.33vh; border: 5px solid white;
+    flex-grow: 1; flex-shrink: 0;
+}
+.bagscontainer .b1 .b2 .b3{
+    flex-basis: 33%;
+}
+
+.bagscontainer2 .b4 .b5 .b6{
+    flex-basis: 33%;
+}
+
+.s1, .s2, .s3, .s4, .s5, .s6{
+    min-height: 33.33vh; border: 5px solid white;
+    flex-grow: 1; flex-shrink: 0;  
+}
+
+.shirtscontainer .s1 .s2 .s3{
+    flex-basis: 33%;  
+}
+
+.shirtscontainer .s4 .s5 .s6{
+    flex-basis: 33%;
+}
+
+.i1, .i2, .i3, .i4, .i5, .i6{
+    min-height: 33.33vh; border: 5px solid white;
+    flex-grow: 1; flex-shrink: 0;   
+}
+.topcontainer .i1 .i2{
+    flex-basis: 50%;
+}
+
+.midcontainer .i3 .i4 .i5{
+    flex-basis: 33%;
+}
+
+.bottomcontainer .i6{
+    flex-basis: 100%;
+}
+
+/*Collection pics*/
+.i1{
+    background-image: url("collection/black.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.i2{
+    background-image: url("collection/hat.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.i3{
+    background-image: url("collection/lok.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.i4{
+    background-image: url("collection/redfg.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.i5{
+    background-image: url("collection/green.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.i6{
+    background-image: url("collection/red.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+/*New Arrivals pics*/
+.na1{
+    background-image: url("newarrivals/1.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.na2{
+    background-image: url("newarrivals/2.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.na3{
+    background-image: url("newarrivals/3.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.na4{
+    background-image: url("newarrivals/4.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.na5{
+    background-image: url("newarrivals/5.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+.na6{
+    background-image: url("newarrivals/6.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;  
+}
+
+/*Shirts pics*/
+.s1{
+    background-image: url("tshirt/dark.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.s2{
+    background-image: url("tshirt/yee.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.s3{
+    background-image: url("tshirt/bred.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.s4{
+    background-image: url("tshirt/blue.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.s5{
+    background-image: url("tshirt/pink.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+.s6{
+    background-image: url("tshirt/lime.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+
+/*Bags pics*/
+.b1{
+    background-image: url("bags/pink.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+  .b2{
+    background-image: url("bags/rose.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+  .b3{
+    background-image: url("bags/red.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+  .b4{
+    background-image: url("bags/black.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+
+  .b5{
+    background-image: url("bags/d.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+  
+  .b6{
+    background-image: url("bags/mb.webp");
+    background-repeat: no-repeat;
+    background-size: 100%; 
+  }
+  
+
+/*footer*/
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  #contact a {
+    color: black;
+    margin: 10px;
+  }
+  
+  #contact {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: black;
+  }
+  
+  #icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+  }
+  
+  #contact p {
+    font-size: 14px;
+  }
+  
+ 
+  
