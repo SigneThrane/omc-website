@@ -336,7 +336,7 @@ footer {
 }
 
 .social-icon__link {
-  font-size: 2rem;
+  font-size: 30px;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -347,7 +347,7 @@ footer {
 }
 
 .menu__link {
-  font-size: 1.2rem;
+  font-size: 17.5px;
   color: #fff;
   margin: 0 10px;
   display: inline-block;
@@ -360,7 +360,7 @@ footer {
 .footer p {
   color: #fff;
   margin: 15px 0 10px 0;
-  font-size: 1rem;
+  font-size: 14px;
   font-weight: 300;
 } 
   
