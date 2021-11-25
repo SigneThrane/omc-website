@@ -40,6 +40,7 @@ top: -10px;
 width: 200px;
 }
 
+/*Login*/
 .login{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -140,7 +141,7 @@ li{
     margin-right: 20px;$
 }
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/*Searchbar*/
 .search {
   width: 90%;
   position: relative;
@@ -306,6 +307,72 @@ footer {
 .form .register-form {
   display: none;
 }
+
+/*footer*/
+
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  #contact a {
+    color: black;
+    margin: 10px;
+  }
+  
+  #contact {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    background-color: black;
+  }
+  
+  #icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #icon-container {
+    display: flex;
+  }
+  
+  #icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+  }
+  
+  #contact p {
+    font-size: 14px;
+  }
+
+  .button {
+    background-color: black; 
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+ 
+  
+  
+  
+  
+  /*Billeder*/
 
 /*Collection pics*/
 .i1{
@@ -473,64 +540,4 @@ background-repeat: no-repeat;
   }
   
 
-/*footer*/
 
-ul {
-    margin: 0;
-    padding: 0;
-  }
-  
-  ul li {
-    list-style: none;
-  }
-  
-  #contact a {
-    color: black;
-    margin: 10px;
-  }
-  
-  #contact {
-    color: #fff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 125px;
-    background-color: black;
-  }
-  
-  #icon {
-    background-color: #fff;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  #icon-container {
-    display: flex;
-  }
-  
-  #icon:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
-  }
-  
-  #contact p {
-    font-size: 14px;
-  }
-
-  .button {
-    background-color: black; 
-    border: none;
-    color: white;
-    padding: 10px 30px;
-    text-decoration: none;
-    font-size: 16px;
-    justify-content: center;
-    align-items: center;
-  }
- 
-  
